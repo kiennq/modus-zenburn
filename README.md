@@ -8,8 +8,17 @@ A pair of GNU Emacs themes built on [Modus themes](https://protesilaos.com/emacs
 Choose one:
 
 ``` elisp
-(load-theme 'modus-zenburn :no-confirm)
-(load-theme 'modus-zenburn-light :no-confirm)
+(use-package modus-zenburn
+  :vc (:url "https://github.com/kiennq/modus-zenburn" :rev :newest)
+  :defer 0
+  :custom
+  (modus-themes-bold-constructs t)
+  :config
+  (enable-theme 'modus-zenburn-light)
+  (modus-themes-load-theme 'modus-zenburn-light)
+  ;; (modus-themes-load-theme 'modus-zenburn)
+  )
+
 ```
 
 ## Screenshots
