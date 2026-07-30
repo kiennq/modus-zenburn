@@ -117,7 +117,7 @@
      (bg-completion "#2B2B2B")
      (bg-hover "#2B2B2B")
      (bg-hover-secondary "#383838")
-     (bg-hl-line "#383838")
+     (bg-hl-line "#2B2B2B")
      (bg-region "#2B2B2B")
 
      (bg-mode-line-active "#2B2B2B")
@@ -189,7 +189,7 @@
      (bg-completion "#E4E2D8")
      (bg-hover "#DCDCCC")
      (bg-hover-secondary "#E8E6DF")
-     (bg-hl-line "#EFEEE8")
+     (bg-hl-line "#E4E2D8")
      (bg-region "#E4E2D8")
 
      (bg-mode-line-active "#DCDCCC")
